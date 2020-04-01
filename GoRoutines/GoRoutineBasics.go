@@ -11,5 +11,5 @@ func hello() {
 func main() {
     go hello()
     time.Sleep(1 * time.Second)
-    fmt.Println("main function")
+    fmt.Println("main function from mamta")
 }
