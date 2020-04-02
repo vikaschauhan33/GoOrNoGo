@@ -1,15 +1,15 @@
 package main
 
 import (
-    "fmt"
-    "time"
+	"fmt"
+	"time"
 )
 
 func hello() {
-    fmt.Println("Hello world goroutine")
+	fmt.Println("Hello world goroutine")
 }
 func main() {
-    go hello()
-    time.Sleep(1 * time.Second)
-    fmt.Println("main function mamta gupta kolk")
+	go hello()
+	time.Sleep(1 * time.Second)
+	fmt.Println("main mamta gupta kolk")
 }
