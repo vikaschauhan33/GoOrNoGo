@@ -6,10 +6,10 @@ import (
 )
 
 func hello() {
-    fmt.Println("Hello world goroutine")
+    fmt.Println("Heo world goroutine")
 }
 func main() {
     go hello()
     time.Sleep(1 * time.Second)
-    fmt.Println("main function mamta gupta kolk")
+    fmt.Println("m mamta gupta kolk")
 }
